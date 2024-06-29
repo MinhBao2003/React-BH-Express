@@ -1,0 +1,88 @@
+/* ul {
+        display: flex;
+        align-items: center;
+        list-style: none;
+        text-align: center;
+        width: 70%;
+        margin: auto;
+    }
+.link 
+    {
+        text-decoration: none;
+        color: #fff;
+        font-size: 18px;
+        padding: 0.5rem;
+        margin: 10px;
+        align-items: end;
+    }
+nav{
+    background-color: rgb(214, 35, 35);
+    border-radius: 5px;
+    height: 30px;
+} */
+nav {
+  background-color: #ee73c38e;
+  padding: 1rem;
+  position: sticky;
+  top: 0;
+  z-index: 1000; /* Đảm bảo menu hiển thị trên các thành phần khác */
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-start; /* Căn trái các mục trong thanh điều hướng */
+  padding: 0;
+  margin: 0;
+  gap: 5px; /* Khoảng cách giữa các mục */
+}
+
+nav ul li {
+  margin: 0;
+}
+
+.link {
+  color: #fff;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.link:hover {
+  color: #eb9cd6f0;
+  background-color: #fff;
+  border-radius: 4px;
+}
+
+.active {
+  font-weight: bold;
+  border-bottom: 2px solid #fff;
+}
+.s{
+  margin-top: -1.9rem;
+  position: absolute;
+  /* float: inline-end; */
+  margin-left: 500px;
+  width: 40%;
+  /* text-align: center; */
+  border-radius: 5px;
+  border: 1px solid rgba(232, 191, 232, 0.167);
+  color: rgba(179, 136, 218, 0.368);
+  
+}
+.im{
+  width: 30px;
+  height: 30px;
+}
+.sm{
+  float: right;
+  margin-top: -1.9rem;
+}
+.tb{
+  font-weight: bold;
+  color: white;
+}
+.mb{
+  border: 1px solid rgba(248, 174, 248, 0.803);
+  font-weight: bold;
+}

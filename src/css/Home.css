@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+.d{
+    width: 80%;
+    margin: auto;
+}
+body{
+    font-family: Nunito;
+}
+.d1{
+    width: 100%;
+    
+    height: 300px;
+    margin-top: 1rem;
+}
+.d2{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    /* margin: auto; */
+    /* background-color:red; */
+    height: 140px;
+    margin-top: 1rem;
+    gap: 1.3%;
+}
+.dn1{
+    /* background-color:rgb(0, 119, 255); */
+    height: 200px;
+    width: 24%;
+    border-radius: 60%;
+    
+}
+/* .dn1 .img1{
+    transition: transform 0.3s ease;
+}
+.dn1:hover img {
+    transform: scale(1.1);
+  }
+  .hover-text:hover{
+    color: red;
+  } */
+  .img1 {
+    width: 100px; /* Thiết lập kích thước ảnh tùy theo nhu cầu */
+    height: auto; /* Đảm bảo tỷ lệ hình ảnh tự động điều chỉnh */
+    transition: transform 0.3s ease; /* Hiệu ứng chuyển đổi khi hover */
+  }
+
+  .dn1:hover .img1 {
+    transform: scale(1.2); /* Phóng to ảnh khi hover vào div .dn1 */
+  }
+
+  .dn2:hover .img1 {
+    transform: scale(1.2); /* Phóng to ảnh khi hover vào div .dn2 */
+  }
+
+  .dn3:hover .img1 {
+    transform: scale(1.2); /* Phóng to ảnh khi hover vào div .dn3 */
+  }
+
+  .dn4:hover .img1 {
+    transform: scale(1.2); /* Phóng to ảnh khi hover vào div .dn4 */
+  }
+
+  .hover-text {
+    color: black; /* Màu chữ mặc định */
+    transition: color 0.3s ease; /* Hiệu ứng chuyển đổi màu chữ */
+  }
+
+  .dn1:hover .hover-text,
+  .dn2:hover .hover-text,
+  .dn3:hover .hover-text,
+  .dn4:hover .hover-text {
+    color: red; /* Màu chữ khi hover vào các div */
+  }
+.dn2{
+    background-color:rgb(156, 24, 90);
+    height: 200px;
+    width: 24%;
+    border-radius: 60%;
+}
+.dn3{
+    background-color:rgb(21, 168, 53);
+    height: 200px;
+    width: 24%;
+    border-radius: 60%;
+}
+.dn4{
+    background-color:rgb(141, 168, 21);
+    height: 200px;
+    width: 24%;
+    border-radius: 60%;
+}
+.n1{
+    width: 100%;
+    height: 100px;
+    background-color: aqua;
+}
+/* p{
+    margin-top: -2rem;
+} */
+button{
+    /* margin-top: 1rem; */
+    text-align: center;
+    justify-items: center;
+}
+/* .pd2{
+    margin-top: 10rem;
+} */
+.img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+.img1{
+    width: 100%;
+    height: 100%;
+    border-radius: 60%  ;
+}
+.p1{
+    font-weight: bold;
+    text-align: center;
+    margin-top: 1rem;
+    font-family: Nunito;
+}
+/* App.css */
+@keyframes border-run {
+    0% {
+      border: 2px solid transparent;
+      border-top: 2px solid red;
+    }
+    25% {
+      border: 2px solid transparent;
+      border-right: 2px solid red;
+    }
+    50% {
+      border: 2px solid transparent;
+      border-bottom: 2px solid red;
+    }
+    75% {
+      border: 2px solid transparent;
+      border-left: 2px solid red;
+    }
+    100% {
+      border: 2px solid transparent;
+      border-top: 2px solid red;
+    }
+  }
+  
+  .blinking-span {
+    display: inline-block;
+    animation: border-run 2s linear infinite;
+    border-radius: 5px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin: 1rem;
+    padding: 1rem;
+  }
+.dh1{
+    text-align: center;
+}
+.hr1{
+    margin-top: -3rem;
+    width: 38.6%;
+    float: left;
+    background-color: red;
+    border: none;
+    height: 1px;
+}
+.hr2{
+    margin-top: -3rem;
+    width: 38.6%;
+    float: right;
+    border: none;
+    background-color: red;
+    height: 1px;
+}
+.dvh{
+  width: 80%;
+  margin: auto;
+  margin-top: 8rem;
+  /* background-color: #ebebeb; */
+}
+.di1{
+  width: 48%;
+  /* background-color: #ebebeb; */
+  border: 1px solid #ebebeb;
+  border-radius: 3px;
+}
+.di2{
+  width: 48%;
+  float: right;
+  border: 1px solid #ebebeb;
+  border-radius: 3px;
+}
+.nl{
+  text-decoration: none;
+}

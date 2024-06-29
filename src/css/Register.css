@@ -1,0 +1,175 @@
+/* Import font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css');
+
+/* body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f0f2f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+} */
+.dp{
+  width: 80%;
+  margin: auto;
+}
+.register-dlg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  height: 90vh;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.register-container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.register-forms-container {
+  width: 50%;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.register-signup-form {
+  width: 100%;
+}
+
+.register-signup-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.register-signup-form h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+  text-align: center;
+}
+
+.register-signup-form input,
+.register-signup-form select {
+  margin-bottom: 15px;
+  padding: 15px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.register-signup-form button {
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #059669;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.register-signup-form button:hover {
+  background-color: #047857;
+}
+
+.register-signup-form span {
+  display: block;
+  margin: 20px 0;
+  text-align: center;
+  color: #888;
+}
+
+.register-socials {
+  display: flex;
+  justify-content: center;
+}
+
+.register-socials i {
+  margin: 0 10px;
+  font-size: 20px;
+  color: #fff;
+  padding: 10px;
+  border-radius: 50%;
+  transition: opacity 0.3s ease;
+  cursor: pointer;
+}
+
+.register-socials .fa-facebook-f {
+  background-color: #3b5998;
+}
+
+.register-socials .fa-google-plus-g {
+  background-color: #db4a39;
+}
+
+.register-socials .fa-linkedin-in {
+  background-color: #0e76a8;
+}
+
+.register-socials i:hover {
+  opacity: 0.8;
+}
+
+.register-intros-container {
+  width: 50%;
+  background: linear-gradient(170deg, #34d399, #059669);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  padding: 50px;
+}
+
+.register-signup-intro {
+  text-align: center;
+}
+
+.register-signup-intro h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.register-signup-intro p {
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+.register-signup-intro button {
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  background-color: #10b981;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.register-signup-intro button:hover {
+  background-color: #059669;
+}
+
+@media (max-width: 768px) {
+  .register-container {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .register-forms-container,
+  .register-intros-container {
+    width: 100%;
+    padding: 20px;
+  }
+}

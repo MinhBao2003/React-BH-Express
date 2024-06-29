@@ -1,0 +1,48 @@
+.page-topic{
+    width: 80%;
+    margin: auto;
+}
+.head-topic{
+    display: flex;
+    width: 100%;
+    margin-top: 1rem;
+}
+.d1-topic{
+    width: 25%;
+    height: 320px;
+    list-style: none;
+    border: 1px dashed #dddddd;
+    /* padding: 0px 20px 13px 20px; */
+    border-radius: 5px;
+}
+.d-topic{
+    width: 70%;
+    margin-left: 1%;
+}
+.product-grid4 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+.ul-topic{
+    margin-top: -0.5rem;
+    padding: 0px 20px 13px 20px;
+}
+.li-topic{
+    border-top: 1px dashed #dddddd;
+    padding: 10px;
+}
+.h-topic{
+    text-align: center;
+    background-color: #ee73c38e;
+    width: 303px;
+    height: 44.8px;
+    margin-right: -42px;
+    position: relative;
+    border-radius:5px ;
+    padding: 5px;
+}
+.p-topic{
+    font-weight: bold;
+    color: red;
+}
