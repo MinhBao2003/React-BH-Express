@@ -13,7 +13,7 @@ function Home() {
         <div>
           <hr className='hr1'/>
         </div>
-        <div>
+        <div> 
           <hr className='hr2'/>
         </div>
         <br/>

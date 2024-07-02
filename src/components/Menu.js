@@ -1,25 +1,18 @@
 import React, { useEffect, useState } from 'react';
-import '../css/Menu.css';
 import { NavLink } from 'react-router-dom';
+import '../css/Menu.css';
 
 function Menu({ onLogout }) {
   const [username, setUsername] = useState('');
+  const [cartItems, setCartItems] = useState([]);
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   useEffect(() => {
     const storedUsername = localStorage.getItem('username');
     if (storedUsername) {
       setUsername(storedUsername);
     }
-  }, []);
-
-  const handleLogout = () => {
-    setUsername('');
-    localStorage.removeItem('username');
-    onLogout();
-  };
-  //tính số lượng giỏ hàng theo id 
-
-  const [cartItems, setCartItems] = useState([]);
+  }, []); 
 
   useEffect(() => {
     fetch('http://localhost:3000/cart')
@@ -28,14 +21,27 @@ function Menu({ onLogout }) {
       .catch(error => console.error('Error fetching cart:', error));
   }, []);
 
+  const handleLogout = () => {
+    setUsername('');
+    localStorage.removeItem('username');
+    onLogout();
+  };
+
   const countIds = () => {
     return cartItems.length; // Đây là số lượng id của các sản phẩm trong giỏ hàng
   };
 
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
+
   return (
     <nav>
-      <ul>
-        <li>
+      <div className="menu-icon" onClick={toggleMenu}>
+        &#9776;
+      </div>
+      <ul className={isMenuOpen ? 'nav-links open' : 'nav-links'}>
+        <li>  
           <NavLink exact to="/" activeClassName="" className="link">
             Trang Chủ
           </NavLink>
