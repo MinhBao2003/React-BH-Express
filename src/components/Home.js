@@ -23,7 +23,7 @@ function Home() {
             
             <button>Buy</button> */}
             <NavLink exact to="/romantic" activeClassName="active" className='nl'>
-            <img src="/langmang.jpg" className='img1' alt=""/>
+            <img src="/langmang.jpg" className='img1 i1' alt=""/>
             <p className='hover-text p1'>Hoa Lãng Mạng</p>
             </NavLink>
           </div>
@@ -31,21 +31,21 @@ function Home() {
             {/* <div className='n1'></div>
             <p>coments or review</p>
             <button>Buy</button> */}
-            <img src="/sn.jpg" className='img1' alt=""/>
+            <img src="/sn.jpg" className='img1 i1' alt=""/>
             <p className='hover-text p1'>Hoa Sinh Nhật</p>
           </div>
           <div className='dn3'> 
             {/* <div className='n1'></div>
             <p>coments or review</p>
             <button>Buy</button> */}
-            <img src="/bohoa.jpg" className='img1' alt=""/>
+            <img src="/bohoa.jpg" className='img1 i1' alt=""/>
             <p className='hover-text p1'>Bó Hoa</p>
           </div>
           <div className='dn4'>
             {/* <div className='n1'></div>
             <p>coments or review</p>
             <button>Buy</button> */}
-            <img src="/khaitruong.jpg" className='img1' alt=""/>
+            <img src="/khaitruong.jpg" className='img1 i1' alt=""/>
             <p className='hover-text p1'>Hoa Khai Trương</p>
           </div>
         </div>

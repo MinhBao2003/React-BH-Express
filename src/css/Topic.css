@@ -12,7 +12,6 @@
     height: 320px;
     list-style: none;
     border: 1px dashed #dddddd;
-    /* padding: 0px 20px 13px 20px; */
     border-radius: 5px;
 }
 .d-topic{
@@ -35,7 +34,7 @@
 .h-topic{
     text-align: center;
     background-color: #ee73c38e;
-    width: 303px;
+    width: 100%;
     height: 44.8px;
     margin-right: -42px;
     position: relative;
@@ -45,4 +44,48 @@
 .p-topic{
     font-weight: bold;
     color: red;
+}
+.menu-toggle {
+    display: none;
+  }
+@media (max-width: 768px) {
+    .product-grid4{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+      .h-topic{
+        font-size: 18px;
+        height: 27.8px;
+      }
+      .d1-topic{
+        height: 28.7px;
+      }
+      .li-topic{
+        border-top: 1px dashed white;
+      }
+      .ul-topic {
+        display: none;
+        position: absolute; 
+        top: 0;
+        left: 0;
+        width: 320px;
+        background-color: white; 
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
+      }
+    
+      .ul-topic.open {
+        display: block;
+        transform: translateX(0);
+        background-color: #e0ade682;
+        border-radius: 4px;
+        margin-top: 8.9rem;
+        z-index: 1;
+        margin-left: 38px;
+      }
+      
+      .head-topic.menu-open ~ .d-topic {
+        transform: translateX(320px);
+        transition: transform 0.3s ease-in-out;
+      }
 }

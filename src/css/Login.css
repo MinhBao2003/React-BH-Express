@@ -175,18 +175,18 @@
 
 @media screen and (max-width: 480px) {
   .container {
-    height: 100vh;
+    height: 95vh;
     display: flex;
     flex-direction: column;
   }
   .container .forms-container {
     order: 2;
     width: 100%;
-    height: 50vh;
+    margin-top: -1.5vh;
   }
   .container .forms-container .form-control {
     position: absolute;
-    height: 50vh;
+    height: 53vh;
   }
   .container .forms-container .form-control.signup-form {
     left: 0%;
@@ -200,7 +200,7 @@
   }
   .container .intros-container .intro-control {
     position: absolute;
-    height: 40vh;
+    height: 38vh;
   }
 
   .change .forms-container .form-control.signup-form {

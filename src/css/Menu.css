@@ -64,9 +64,9 @@ nav ul li {
   border: 1px solid rgba(248, 174, 248, 0.803);
   font-weight: bold;
 }
-/* .menu-icon {
+.menu-icon {
   display: none;
-} */
+}
 /* Responsive styles for mobile */
 @media (max-width: 768px) {
   .menu-icon {
@@ -86,7 +86,7 @@ nav ul li {
 
   .nav-links.open {
     display: flex;
-    /* width: 30%; */
+    width: 37%;
     border-radius: 4px;
   }
 

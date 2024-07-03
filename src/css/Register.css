@@ -1,16 +1,6 @@
 /* Import font */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css');
-
-/* body {
-  font-family: 'Poppins', sans-serif;
-  background-color: #f0f2f5;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  margin: 0;
-} */
 .dp{
   width: 80%;
   margin: auto;
@@ -21,7 +11,7 @@
   align-items: center;
   width: 100%;
   max-width: 1200px;
-  height: 90vh;
+  /* height: 90vh; */
   background-color: #fff;
   border-radius: 10px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
@@ -161,15 +151,41 @@
   background-color: #059669;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 480px) {
   .register-container {
+    display: flex;
     flex-direction: column;
-    height: auto;
+    height: 100vh; /* Đảm bảo container chiếm toàn bộ chiều cao màn hình */
+  } 
+  .register-forms-container {
+    width: 100%;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 60px); /* Điều chỉnh chiều cao trừ đi padding */
+    border: 1px solid #dcb1b1;
   }
-
-  .register-forms-container,
   .register-intros-container {
     width: 100%;
     padding: 20px;
+    margin-top: 0.2rem;
   }
+  .register-signup-form {
+    width: 100%;
+  }
+  .register-signup-form form {
+    display: flex;
+    flex-direction: column;
+    margin-top: -2.5rem;
+  }
+}
+@media (max-width: 320px) {
+  /* CSS cho màn hình nhỏ */
+}
+@media (max-width: 768px) {
+  /* .register-forms-container {
+    height: 90vh;
+  } */
 }

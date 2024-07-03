@@ -2,8 +2,7 @@
     width: 80%;
     margin: auto;
     height: 160px;
-    /* margin-top: 7rem; */
-    /* background-color: greenyellow; */
+    margin-top: -1rem;
 }
 .dp2{
     display: flex ;
@@ -63,3 +62,18 @@
 h7{
     font-family: Nunito;
 }
+@media (max-width: 768px) {
+    .h7-product1{
+        font-size: 10px;
+    }
+    .p-product1{
+        font-size: 7px;
+        margin-top: -0.3rem;
+    }
+    .i2{
+        width: 39%;
+        height: 22%;
+    }
+   
+}
+@media (max-width: 480px) {}

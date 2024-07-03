@@ -1,11 +1,4 @@
-/* body {
-    font-family: Arial, sans-serif;
-    background-color: #fce4d6;
-    margin: 0;
-    padding: 0;
-  } */
-  
-  .container1 {
+.container1 {
     width: 100%;
     /* margin: 0 auto; */
     padding: 20px 0;
@@ -20,8 +13,9 @@
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     gap: 20px;
+    margin: 10px;
   }
-  
+    
   .product-item {
     background-color: #fff;
     border: 1px solid #e0e0e0;
@@ -101,4 +95,28 @@
   .a{
     text-decoration: none;
   }
-  
+  @media (max-width: 768px) {
+    .w1{
+      width: 80%;
+      margin: auto;
+      margin-top: 4rem;
+      background-color: #ffe6dd;
+    }
+    .product-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr); 
+      gap: 20px;
+      margin: 10px;
+    }
+    .h-hot{
+      font-size: 21px;
+      text-align: center;
+    }
+    .product-name{
+      font-size: 13px;
+    }
+    .product-price{
+      font-size: 12px;
+    }
+  }
+  @media (max-width: 480px) {} 

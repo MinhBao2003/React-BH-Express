@@ -7,7 +7,7 @@ function Hot() {
     <div>
         <div className='w1'>
         <div class="container1">
-    <h1>HOA KHUYẾN MÃI</h1>
+    <h1 className="h-hot">HOA KHUYẾN MÃI</h1>
     <div class="product-grid">
     <NavLink exact to="/Rose" className="a">
         <div class="product-item">

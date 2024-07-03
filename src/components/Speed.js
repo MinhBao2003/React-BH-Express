@@ -7,7 +7,7 @@ function Speed() {
     <div>
         <div className='w2'>
         <div class="container1">
-    <h1>HOA GIAO NHANH</h1>
+    <h1 className="h-hot">HOA GIAO NHANH</h1>
     <div class="product-grid">
       <div class="product-item">
         {/* <div class="badge sale">SALE</div> */}
