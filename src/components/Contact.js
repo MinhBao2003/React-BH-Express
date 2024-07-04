@@ -1,5 +1,28 @@
 import '../css/Contact.css';
+import React, { useState, useEffect } from 'react';
 function Contact(){
+    const [screenClass, setScreenClass] = useState('dh-item');
+
+  useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth <= 768) {
+        setScreenClass('dh-item dh-i');
+      } else {
+        setScreenClass('dh-item');
+      }
+    };
+
+    // Gọi handleResize khi component mount
+    handleResize();
+
+    // Lắng nghe sự kiện thay đổi kích thước cửa sổ
+    window.addEventListener('resize', handleResize);
+
+    // Cleanup event listener khi component unmount
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
     return(
         <div >
             <hr/>
@@ -19,7 +42,7 @@ function Contact(){
                     <h3><span className='spn1'>Hộ Kinh Doanh:</span> Hoa Tươi Vũng Tàu</h3>
                     <h3><span className='spn1'>Trụ Sở:</span> 57 Phạm Hồng Thái-P7-TP.Vũng Tàu</h3>
                 </div>
-                <div className="dh-item">
+                <div className={screenClass}>
                     <h3 className='lhl'>Hướng Dẫn</h3>
                     <h3>Hướng dẫn đặt hoa</h3>
                     <h3>Hướng dẫn thanh toán</h3>

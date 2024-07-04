@@ -155,7 +155,7 @@
   .register-container {
     display: flex;
     flex-direction: column;
-    height: 100vh; /* Đảm bảo container chiếm toàn bộ chiều cao màn hình */
+    height: 117vh; /* Đảm bảo container chiếm toàn bộ chiều cao màn hình */
   } 
   .register-forms-container {
     width: 100%;
@@ -164,13 +164,13 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: calc(100vh - 60px); /* Điều chỉnh chiều cao trừ đi padding */
+    height: 78vh;
     border: 1px solid #dcb1b1;
   }
   .register-intros-container {
     width: 100%;
     padding: 20px;
-    margin-top: 0.2rem;
+    margin-top: 0.5rem;
   }
   .register-signup-form {
     width: 100%;
@@ -178,14 +178,24 @@
   .register-signup-form form {
     display: flex;
     flex-direction: column;
-    margin-top: -2.5rem;
+    /* margin-top: -2.5rem; */
   }
 }
-@media (max-width: 320px) {
-  /* CSS cho màn hình nhỏ */
+
+
+/* Màn hình điện thoại ip se */
+@media (max-width: 375px) {
+  .register-container {
+    height: 152vh; 
+  } 
+  .register-signup-form form {
+    margin-top: 0.5rem;
+  }
+  .register-forms-container {
+    height: 100vh;
+  }
+  .register-intros-container {
+    margin-top: 0.2rem;
+  }
 }
-@media (max-width: 768px) {
-  /* .register-forms-container {
-    height: 90vh;
-  } */
-}
+

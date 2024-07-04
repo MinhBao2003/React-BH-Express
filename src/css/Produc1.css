@@ -64,16 +64,24 @@ h7{
 }
 @media (max-width: 768px) {
     .h7-product1{
-        font-size: 10px;
+        font-size: 13px;
     }
-    .p-product1{
+    /* .p-product1{
         font-size: 7px;
         margin-top: -0.3rem;
     }
     .i2{
         width: 39%;
         height: 22%;
-    }
+    } */
    
 }
-@media (max-width: 480px) {}
+@media (max-width: 480px) {
+    .p-product1{
+        font-size: 7px;
+        margin-top: -0.3rem;
+    }
+    .h7-product1{
+        font-size: 10px;
+    }
+}

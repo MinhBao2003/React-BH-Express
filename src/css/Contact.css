@@ -60,3 +60,30 @@ hr {
     border: 0;
     border-top: 1px solid #ccc;
 }
+
+@media (max-width: 768px) {
+    .dh {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .dh-i {
+        height: 252.31px;
+    }
+}
+/* CSS cho màn hình iPad Pro (11 inch và 12.9 inch) */
+@media (min-width: 820px) and (max-width: 1194px) {
+    .dh {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .dh-item {
+        height: 240.31px;
+    }
+  }
+  @media (min-width: 300px) and (max-width: 500px){
+    .dh {
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+  
+
