@@ -7,8 +7,19 @@ import Contact from './Contact';
 function CartComponent() {
   const [cartItems, setCartItems] = useState([]);
   const [isCartEmpty, setIsCartEmpty] = useState(true); // State để kiểm tra giỏ hàng có rỗng hay không
+  const [isMobile, setIsMobile] = useState(window.innerWidth < 768); // State to check if screen is mobile
   const navigate = useNavigate();
 
+  // Update isMobile state on window resize
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth < 768);
+    };
+    window.addEventListener('resize', handleResize);
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
   // Fetch cart data from API on component mount
   useEffect(() => {
     fetch('http://localhost:3000/cart')
@@ -108,13 +119,22 @@ function CartComponent() {
                         <p>{item.nammeproduct}</p>
                         <p>Giá Giảm: {item.price} </p>
                         <p className='p-cart'>Giá Giốc: {item.discount}</p>
-                        <p>Số Lượng: {item.quantity}</p>
+                        <p>Số Lượng: {item.quantity}
+                        {isMobile && (
+                          <div className="cart-item-actions">
+                            <button onClick={() => handleDecrease(item.id)}>-</button>
+                            <button onClick={() => handleIncrease(item.id)}>+</button>
+                          </div>
+                        )}
+                        </p>
                         <p>Tổng Giá: {item.totalPrice ? item.totalPrice : 'N/A'} đ</p>
                       </div>
-                      <div className="cart-item-actions">
-                        <button onClick={() => handleDecrease(item.id)}>-</button>
-                        <button onClick={() => handleIncrease(item.id)}>+</button>
-                      </div>
+                      {!isMobile && (
+                        <div className="cart-item-actions">
+                          <button onClick={() => handleDecrease(item.id)}>-</button>
+                          <button onClick={() => handleIncrease(item.id)}>+</button>
+                        </div>
+                      )}
                     </li>
                   ))}
                 </ul>
@@ -129,7 +149,7 @@ function CartComponent() {
         </div>
         <Contact/>
     </div>
-  );
+  ); 
 }
 
 export default CartComponent;

@@ -13,7 +13,7 @@
   border-radius: 10px;
 }
 
-/* Header styling */
+/* Header styling */ 
 .cart-header {
   font-size: 2em;
   text-align: center;
@@ -98,4 +98,21 @@ ul {
   color: white;
   width: 40%;
   font-weight: bold;
+}
+@media (max-width: 480px) {
+  .cart-header {
+    font-size: 1.2em;
+  }
+
+  .cart-item img {
+    width: 60px;
+  }
+
+  .cart-item-info p {
+    font-size: 0.9em;
+  }
+
+  .cart-item-actions button {
+    padding: 6px;
+  }
 }

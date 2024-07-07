@@ -4,7 +4,7 @@
     flex-wrap: wrap;
     justify-content: space-around;
     padding: 20px;
-    background-color: #fde0fa;
+    background-color: #d0f5d578;
     border-radius: 10px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
 }
@@ -14,10 +14,11 @@
     flex: 1 1 200px;
     margin: 10px;
     padding: 20px;
-    background-color: rgb(200, 248, 230);
+    /* background-color: rgb(200, 248, 230); */
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
     text-align: left;
+    border:1px dashed #70bac0bf;
 }
 
 /* Định dạng tiêu đề */
@@ -61,23 +62,23 @@ hr {
     border-top: 1px solid #ccc;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) and (max-width: 850px){
     .dh {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
     .dh-i {
-        height: 252.31px;
+        height: 158.4px;
     }
 }
 /* CSS cho màn hình iPad Pro (11 inch và 12.9 inch) */
-@media (min-width: 820px) and (max-width: 1194px) {
+@media (min-width: 900px) and (max-width: 1194px) {
     .dh {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
     }
     .dh-item {
-        height: 240.31px;
+        /* height: 158.4px; */
     }
   }
   @media (min-width: 300px) and (max-width: 500px){

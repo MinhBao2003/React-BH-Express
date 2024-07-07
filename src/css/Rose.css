@@ -45,7 +45,6 @@
     border-radius: 5px;
     padding: 10px;
     width: 98%;
-    height: 115px;
     color: rgba(134, 224, 243, 0.905);
 }
 .d1e{
@@ -54,9 +53,15 @@
     border-radius: 5px;
     padding: 10px;
     width: 98%;
-    height: 50px;
+    /* height: 50px; */
 }
 .bc{
+    width: 45%;
+    border: 2px solid #b47106;
+    color: #b47106;
+    font-weight: bold;
+}
+.bcs{
     width: 45%;
     border: 2px solid #b47106;
     color: #b47106;
@@ -153,4 +158,69 @@
 }
 .p12{
     margin-top: -1rem;
+}
+
+@media (min-width: 300px) and (max-width: 500px){
+    .bc {
+        font-size: 9px;
+    }
+    .bcs {
+        font-size: 9px;
+    }
+    .bb {
+        font-size: 9px;
+        margin-top: 5px;
+    }
+    .df {
+        font-size: 10px;
+    }
+    .sh {
+        height: 267.6px;
+    }
+    .dz {
+        height: 32px;
+        padding: 0;
+    }
+    .dn{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap:20px;
+    }
+    .d12{
+        width: 100%;
+    }
+    .d22{
+        width: 100%;
+        margin-left: 0;
+    }
+    .d32{
+        width: 100%;
+        margin-left: 0;
+    }
+    .d42{
+        width: 100%;
+        margin-left: 0;
+    }
+}
+@media (min-width: 768px) and (max-width: 850px){
+    .dn{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap:20px;
+    }
+    .d12{
+        width: 100%;
+    }
+    .d22{
+        width: 100%;
+        /* margin-left: 0; */
+    }
+    .d32{
+        width: 100%;
+        margin-left: 0;
+    }
+    .d42{
+        width: 100%;
+        /* margin-left: 0; */
+    }
 }

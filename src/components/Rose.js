@@ -66,31 +66,29 @@ function Rose() {
                         <hr/>
                         <p>Sự kết hợp màu sắc nhã nhặn giữa hoa và lá cùng cách gói đơn giản đã tạo nên một món quà phù hợp với những ai có gu thẩm mỹ tinh tế, yêu thích sự đơn giản nhưng vẫn đầy tính sang trọng.</p>
                         <p>Sản phẩm bao gồm:</p>
-                         <p>Cẩm chướng chùm trắng: 5</p>
-                         <p>Hồng Victo: 7</p>
-                         <p>Sản phẩm thực nhận có thể khác với hình đại diện trên website (đặc điểm thủ công và tính chất tự nhiên của hàng nông nghiệp)</p>
-                         <p><b>Hoa giao nhanh 60 phút Hồ Chí Minh</b></p>
-                         <div className='sh'>
+                        <p>Cẩm chướng chùm trắng: 5</p>
+                        <p>Hồng Victo: 7</p>
+                        <p>Sản phẩm thực nhận có thể khác với hình đại diện trên website (đặc điểm thủ công và tính chất tự nhiên của hàng nông nghiệp)</p>
+                        <p><b>Hoa giao nhanh 60 phút Hồ Chí Minh</b></p>
+                        <div className='sh'>
                             <h5>LƯU Ý</h5>
                             <p> Sản phẩm bạn đang chọn là sản phẩm được thiết kế đặc biệt!</p>
                             <p>Hiện nay, Hoayeuthuong.com chỉ thử nghiệm cung cấp cho thị trường Tp. Hồ Chí Minh và Hà Nội</p>
-                         </div>
-                         <div className='d1e'>
-                         
-                                <div>
-                                {cartItems.some(item => item.nammeproduct === product.nammeproduct) ? (
-                                <button className='bc'>Sản phẩm đã có trong Giỏ hàng - Số lượng: {cartItems.find(item => item.nammeproduct === product.nammeproduct).quantity}</button>
-                                    ) : (
-                                    <button className='bc' onClick={() => addToCart(product)}>Thêm Giỏ Hàng</button>
-                                )}
-                                <button className='bb'>Mua Ngay</button>
-                                </div>
-                            
-                            
-                         </div>
-                         <div className='dz'>
+                        </div>
+                        <div className='d1e'>
+                                
+                                        {cartItems.some(item => item.nammeproduct === product.nammeproduct) ? (
+                                        <button className='bcs'>Sản phẩm đã có trong Giỏ hàng - Số lượng: {cartItems.find(item => item.nammeproduct === product.nammeproduct).quantity}</button>
+                                            ) : (
+                                            <button className='bc' onClick={() => addToCart(product)}>Thêm Giỏ Hàng</button>
+                                        )}
+                                    
+                                        <button className='bb'>Mua Ngay</button>
+                                                                                       
+                        </div>
+                        <div className='dz'>
                          <button className='df'><a className='da' href="tel:+1800101">Giọi Ngay : 1800101</a></button>
-                         </div>
+                        </div>
                          
                     </div>
                 </div>
