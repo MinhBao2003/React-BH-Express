@@ -3,16 +3,16 @@ nav {
   padding: 1rem;
   position: sticky;
   top: 0;
-  z-index: 1000; /* Đảm bảo menu hiển thị trên các thành phần khác */
+  z-index: 1000; 
 }
 
 nav ul {
   list-style: none;
   display: flex;
-  justify-content: flex-start; /* Căn trái các mục trong thanh điều hướng */
+  justify-content: flex-start; 
   padding: 0;
   margin: 0;
-  gap: 5px; /* Khoảng cách giữa các mục */
+  gap: 5px; 
 }
 
 nav ul li {
@@ -39,10 +39,8 @@ nav ul li {
 .s{
   margin-top: -1.5rem;
   position: absolute;
-  /* float: inline-end; */
   margin-left: 500px;
   width: 40%;
-  /* text-align: center; */
   border-radius: 5px;
   border: 1px solid rgba(232, 191, 232, 0.167);
   color: rgba(179, 136, 218, 0.368);
@@ -67,7 +65,12 @@ nav ul li {
 .menu-icon {
   display: none;
 }
-/* Responsive cho mobile */
+
+@media (min-width: 769px) and (max-width: 819px){
+  .s {
+    width: 21%;
+  }
+}
 @media (max-width: 768px) {
   .menu-icon {
     display: block;
@@ -135,15 +138,13 @@ nav ul li {
   }
   
 }
-/* CSS cho màn hình iPad Pro (11 inch và 12.9 inch) */
+
 @media (min-width: 820px) and (max-width: 1194px) {
   .s {
     margin-top: -1.5rem;
     position: absolute;
-    /* float: inline-end; */
     margin-left: 500px;
     width: 20%;
-    /* text-align: center; */
     border-radius: 5px;
     border: 1px solid rgba(232, 191, 232, 0.167);
     color: rgba(179, 136, 218, 0.368);

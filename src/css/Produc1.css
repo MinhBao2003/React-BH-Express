@@ -5,46 +5,41 @@
     margin-top: -1rem;
 }
 .dp2{
-    display: flex ;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     width: 100%;
     height: 180px;
-    /* background-color: aqua; */
     gap: 1.3%;
 }
 .p1{
     width: 100%;
-    /* margin: auto; */
     font-family: Nunito;
     text-align: center;
 }
 .pn1{
-    width: 24%;
+    width: 100%;
     height: 160px;
-    /* background-color: blue; */
     justify-items: center;
     text-align: center;
     border: 1px solid black;
 }
 .pn2{
-    width: 24%;
+    width: 100%;
     height: 160px;
-    /* background-color: chartreuse; */
     justify-items: center;
     text-align: center;
     border: 1px solid black;
 }
 .pn3{
-    width: 24%;
+    width: 100%;
     height: 160px;
-    /* background-color: blueviolet; */
     justify-items: center;
     text-align: center;
     border: 1px solid black;
 }
 .pn4{
-    width: 24%;
+    width: 100%;
     height: 160px;
-    /* background-color: cadetblue; */
     justify-items: center;
     text-align: center;
     border: 1px solid black;
@@ -62,26 +57,26 @@
 h7{
     font-family: Nunito;
 }
-@media (max-width: 768px) {
-    .h7-product1{
-        font-size: 13px;
+
+@media (min-width: 501px) and (max-width: 1023px){
+    .dp2 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
     }
-    /* .p-product1{
-        font-size: 7px;
-        margin-top: -0.3rem;
-    }
-    .i2{
-        width: 39%;
-        height: 22%;
-    } */
-   
+    
 }
-@media (max-width: 480px) {
-    .p-product1{
-        font-size: 7px;
-        margin-top: -0.3rem;
+@media (min-width: 1024px) and (max-width: 1194px) {
+    .dp2 {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
     }
-    .h7-product1{
-        font-size: 10px;
-    }
+    
 }
+  @media (min-width: 300px) and (max-width: 500px){
+    .dp2 {
+        grid-template-columns: repeat(1,1fr);
+    }
+    
+}
+  
+

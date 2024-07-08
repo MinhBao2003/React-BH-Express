@@ -1,4 +1,4 @@
-/* Đặt nền và khoảng cách chung */
+
 .dh {
     display: flex;
     flex-wrap: wrap;
@@ -9,19 +9,15 @@
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
 }
 
-/* Thiết kế từng mục liên hệ */
 .dh-item {
     flex: 1 1 200px;
     margin: 10px;
     padding: 20px;
-    /* background-color: rgb(200, 248, 230); */
     border-radius: 10px;
-    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
     text-align: left;
     border:1px dashed #70bac0bf;
 }
 
-/* Định dạng tiêu đề */
 .lhl {
     font-size: 1.5em;
     color: #333;
@@ -31,38 +27,31 @@
     border-bottom: 2px solid #007bff;
 }
 
-/* Định dạng các thông tin chi tiết */
 .dh-item h3 {
     font-size: 1em;
     color: #555;
     margin-bottom: 10px;
 }
 
-/* Định dạng biểu tượng */
 .dh-item h3 span.spn1::before {
     content: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNCIgaGVpZ2h0PSIxNCIgdmlld0JveD0iMCAwIDE0IDE0Ij4KICAgIDxwYXRoIGZpbGw9IiMwMDdiZmYiIGQ9Ik0xNCw3LjVDMTQsMTEuNjI1LDEwLjYyNSwxNSwxLjUsMTVDMS4xMTQsMTUsMC44OCwxNC43ODgsMC44OCwxNC4zOTFMMC44OCwzLjQyOTFDMC44OCwzLjAzMTUsMS4xMTQsMi44MDEsMS41LDIuODAxQzMuNDEzLDIuODAxLDUuNzI3LDMuNzA2LDguNDYzLDYsOC44NTYsNi4yMjIsOS4zMDMsNi45OTksMTIuNjgyLDYuOTk5TDExLjUsNi4zOTFBMC4xMDAxMSwwLjEwMDExLDAsMCwwLDExLjQ5Nyw2SDYuODU5QzYuMzc2LDYsNiw2LjM3Niw2LDYuODVWOS4xMzFDNiw5LjYxNSw2LjM3NiwxMCw2Ljg1OSwxMEgxMC4wNTNDOS41NTcsOS4xNTQsOS4xMTcsOC40NjcsOC42Niw3LjcyM0M2LjE0OSw0LjM4MywzLjg4MywzLjYwMSwxLjUsMy42MDFDMi45MzMsNi4wNjMsNC44NTcsOS43NzksNi42NDYsMTMuMTY2TDExLjUsMTEuMTY2TDMuNTkzLDcuNDk5QzIuMTg1LDYuNzc5LDEuODk2LDYuNTAzLDEuODk2LDYuMTc5QzEuODk2LDYuMDUsMS45OTYsNS45NTYsMi4xMjUsNS45NTZDNC41MjMsNS45NTYsOC42NzIsNC40NTcsMTQuMDAxLDE0Ljc3OEMxNC4xODIsNC44OTksMTQsNC4zMDQsMTQsMy41TDQsOS41QzQsNy41LDE0LDcuNSwxNCw3LjVaIi8+Cjwvc3ZnPg==');
     margin-right: 5px;
 }
 
-/* Định dạng liên kết điện thoại */
+
 .a {
     color: red;
     text-decoration: none;
     font-weight: bold;
 }
 
-/* .a:hover {
-    text-decoration: underline;
-} */
-
-/* Định dạng đường phân cách */
 hr {
     margin: 20px 0;
     border: 0;
     border-top: 1px solid #ccc;
 }
 
-@media (min-width: 768px) and (max-width: 850px){
+@media (min-width: 680px) and (max-width: 860px){
     .dh {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -71,14 +60,11 @@ hr {
         height: 158.4px;
     }
 }
-/* CSS cho màn hình iPad Pro (11 inch và 12.9 inch) */
+
 @media (min-width: 900px) and (max-width: 1194px) {
     .dh {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
-    }
-    .dh-item {
-        /* height: 158.4px; */
     }
   }
   @media (min-width: 300px) and (max-width: 500px){

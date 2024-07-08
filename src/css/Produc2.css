@@ -2,52 +2,41 @@
     width: 80%;
     margin: auto;
     height: 160px;
-    /* margin-top: 6rem; */
-    /* background-color: greenyellow; */
 }
 .dp22{
     display: flex ;
     width: 100%;
     height: 180px;
-    /* background-color: aqua; */
     gap: 1.3%;
 }
 .p12{
     width: 100%;
-    /* margin: auto; */
     text-align: center;
-    
 }
 .pn12{
     width: 24%;
     height: 160px;
-    /* background-color: blue; */
     text-align: center;
 }
 .pn22{
     width: 24%;
     height: 160px;
-    /* background-color: chartreuse; */
     text-align: center;
 }
 .pn32{
     width: 24%;
     height: 160px;
-    /* background-color: blueviolet; */
     text-align: center;
 }
 .pn42{
     width: 24%;
     height: 160px;
-    /* background-color: cadetblue; */
     text-align: center;
 }
 .b2{
     float: right;
 }
-/* .dc{
-    margin-top: 8rem;
-} */
+
 .lm{
     width: 100%;
     height: 100%;

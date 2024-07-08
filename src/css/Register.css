@@ -11,7 +11,6 @@
   align-items: center;
   width: 100%;
   max-width: 1200px;
-  /* height: 90vh; */
   background-color: #fff;
   border-radius: 10px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
@@ -155,7 +154,7 @@
   .register-container {
     display: flex;
     flex-direction: column;
-    height: 117vh; /* Đảm bảo container chiếm toàn bộ chiều cao màn hình */
+    height: 117vh;
   } 
   .register-forms-container {
     width: 100%;
@@ -178,12 +177,9 @@
   .register-signup-form form {
     display: flex;
     flex-direction: column;
-    /* margin-top: -2.5rem; */
   }
 }
 
-
-/* Màn hình điện thoại ip se */
 @media (max-width: 375px) {
   .register-container {
     height: 152vh; 

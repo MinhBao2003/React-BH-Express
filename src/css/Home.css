@@ -16,44 +16,40 @@ body{
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    /* margin: auto; */
-    /* background-color:red; */
-    /* height: 140px; */
     margin-top: -1rem;
     gap: 1.3%;
 }
 .dn1{
-    /* background-color:rgb(0, 119, 255); */
     height: 200px;
     width: 24%;
     border-radius: 60%;
     
 }
   .img1 {
-    width: 100px; /* Thiết lập kích thước ảnh tùy theo nhu cầu */
-    height: auto; /* Đảm bảo tỷ lệ hình ảnh tự động điều chỉnh */
-    transition: transform 0.3s ease; /* Hiệu ứng chuyển đổi khi hover */
+    width: 100px; 
+    height: auto; 
+    transition: transform 0.3s ease;
   }
 
   .dn1:hover .img1 {
-    transform: scale(1.2); /* Phóng to ảnh khi hover vào div .dn1 */
+    transform: scale(1.2); 
   }
 
   .dn2:hover .img1 {
-    transform: scale(1.2); /* Phóng to ảnh khi hover vào div .dn2 */
+    transform: scale(1.2); 
   }
 
   .dn3:hover .img1 {
-    transform: scale(1.2); /* Phóng to ảnh khi hover vào div .dn3 */
+    transform: scale(1.2); 
   }
 
   .dn4:hover .img1 {
-    transform: scale(1.2); /* Phóng to ảnh khi hover vào div .dn4 */
+    transform: scale(1.2); 
   }
 
   .hover-text {
-    color: black; /* Màu chữ mặc định */
-    transition: color 0.3s ease; /* Hiệu ứng chuyển đổi màu chữ */
+    color: black;
+    transition: color 0.3s ease;
 
   }
 
@@ -61,7 +57,7 @@ body{
   .dn2:hover .hover-text,
   .dn3:hover .hover-text,
   .dn4:hover .hover-text {
-    color: red; /* Màu chữ khi hover vào các div */
+    color: red; 
   }
 .dn2{
     height: 200px;
@@ -104,7 +100,6 @@ button{
     margin-top: 1rem;
     font-family: Nunito;
 }
-/* App.css */
 @keyframes border-run {
     0% {
       border: 2px solid transparent;
@@ -225,8 +220,8 @@ button{
     margin-top: 2rem;
   }
   .hover-text {
-    color: black; /* Màu chữ mặc định */
-    transition: color 0.3s ease; /* Hiệu ứng chuyển đổi màu chữ */
+    color: black; 
+    transition: color 0.3s ease; 
     font-size: 12px;
     margin-top: -0.3rem;
     margin-left: 12px;
