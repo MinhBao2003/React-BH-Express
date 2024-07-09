@@ -1,36 +1,36 @@
-### link git data node express trong cv
+## link git data node express trong cv
 
-## chức năng :
+### chức năng :
  + giao diện trang bán hoa
  + chi tiết sản phẩm loát data từ express
  + chức năng giỏ hàng , đặt hàng lứa vào node express
  + đăng ký , đăng nhập tk người dùng lưu trên node express
 
-## tải code từ git 
+### tải code từ git 
 
 `git clone https://github.com/MinhBao2003/React-BH-Express.git `
 
-## cài thêm node-modules  khi tải code từ git
+### cài thêm node-modules  khi tải code từ git
 
 `npm install`
 
-## * sửa tên project lại ko được ghi hoa và khi chạy project thường để project trong ổ đĩa c/ sẽ không bị lổi *
+### * sửa tên project lại ko được ghi hoa và khi chạy project thường để project trong ổ đĩa c/ sẽ không bị lổi *
 
-## muốn chạy dự án react cài node từ trang chủ của node :
+### muốn chạy dự án react cài node từ trang chủ của node :
 
 `https://nodejs.org/en/download/prebuilt-installer`
 
-# cách chạy project
+### cách chạy project
 
 `npm start`
 
 ![image](https://github.com/MinhBao2003/React-BH-Express/assets/146474537/4f5e7a31-ad03-4101-97b8-a90d59f8690f)
 
-# đã chạy thành công
+### đã chạy thành công
 
 ![image](https://github.com/MinhBao2003/React-BH-Express/assets/146474537/64388cb7-2c6d-4a24-ba05-05870928aa8a)
 
-# I.trang chủ : http://localhost:3001/
+### I.trang chủ : http://localhost:3001/
 
 ![image](https://github.com/MinhBao2003/React-BH-Express/assets/146474537/873c7e03-4c88-47a4-94e5-277897d82b37)
 ![image](https://github.com/MinhBao2003/React-BH-Express/assets/146474537/a65341e9-752d-4ffb-a624-14eed33e2751)
@@ -40,7 +40,7 @@
 ![image](https://github.com/MinhBao2003/React-BH-Express/assets/146474537/69b6813a-3b08-40b2-9655-59053f06af47)
 ![image](https://github.com/MinhBao2003/React-BH-Express/assets/146474537/4cfe84af-bd0e-497f-b8fa-62d55703e2bf)
 
-# II.Chi tiết sản phẩm : http://localhost:3001/Rose
+### II.Chi tiết sản phẩm : http://localhost:3001/Rose
 
 ![image](https://github.com/MinhBao2003/React-BH-Express/assets/146474537/7157a2a0-2c43-4a9b-8a9c-65a66a86a802)
 
@@ -76,7 +76,7 @@ khi refresh lại thì nó sẽ lấy ra số lượng sản phẩm trong menu
 
 ![image](https://github.com/MinhBao2003/React-BH-Express/assets/146474537/ed43d7a5-cec2-4555-8fdb-8391e488335a)
 
-# III.trang giỏ hàng : http://localhost:3001/Cart
+### III.trang giỏ hàng : http://localhost:3001/Cart
 
 ![image](https://github.com/MinhBao2003/React-BH-Express/assets/146474537/c067f449-7803-4c43-aa8b-6fd863e44c1d)
 
@@ -112,7 +112,7 @@ khi click đặt hàng
 
 ![image](https://github.com/MinhBao2003/React-BH-Express/assets/146474537/73c685b5-d54e-4f39-a694-b22e0f50fe32)
 
-# IV.trang đặt hàng http://localhost:3001/Order
+### IV.trang đặt hàng http://localhost:3001/Order
 
 ![image](https://github.com/MinhBao2003/React-BH-Express/assets/146474537/16f84de6-c2cf-463c-84ad-748e758951ab)
 ![image](https://github.com/MinhBao2003/React-BH-Express/assets/146474537/7eb56f1e-2e05-4e6f-9d11-4d2ca2d72370)
@@ -166,17 +166,17 @@ lưu vào node express http://localhost:3000/order
 
 ![image](https://github.com/MinhBao2003/React-BH-Express/assets/146474537/52861773-72a1-454c-b962-395584218f14)
 
-# V.trang chủ đề : http://localhost:3001/Topic
+### V.trang chủ đề : http://localhost:3001/Topic
 
 ![image](https://github.com/MinhBao2003/React-BH-Express/assets/146474537/384b5515-e21d-4c5f-b2e7-3ed3f18e1112)
 ![image](https://github.com/MinhBao2003/React-BH-Express/assets/146474537/fb9ced85-fc6c-4326-b70a-257099d827f7)
 
-# VI.trâng vị trí của hàng : http://localhost:3001/projeck
+### VI.trâng vị trí của hàng : http://localhost:3001/projeck
 
 ![image](https://github.com/MinhBao2003/React-BH-Express/assets/146474537/0f03066f-f640-4e46-a591-d951eae90b04)
 ![image](https://github.com/MinhBao2003/React-BH-Express/assets/146474537/c0f63761-e0a6-409d-955c-8f87a9d4263b)
 
-# VII.trang login : http://localhost:3001/login
+### VII.trang login : http://localhost:3001/login
 
 ![image](https://github.com/MinhBao2003/React-BH-Express/assets/146474537/1e222ff4-20a4-4719-b023-4cd7992b4856)
 ![image](https://github.com/MinhBao2003/React-BH-Express/assets/146474537/0ed5cc3b-84e9-45cd-abc1-35db04c1eb86)
@@ -185,7 +185,7 @@ khi chưa có tk có click button
 
 ![image](https://github.com/MinhBao2003/React-BH-Express/assets/146474537/416c1f0f-c85c-4e99-8c1f-2d5baa09696c)
 
-# VIII.trang resgister : http://localhost:3001/register
+### VIII.trang resgister : http://localhost:3001/register
 
 ![image](https://github.com/MinhBao2003/React-BH-Express/assets/146474537/a2076dfb-eb77-4794-a09f-41d424df5bb3)
 ![image](https://github.com/MinhBao2003/React-BH-Express/assets/146474537/b5dbf579-1bbf-42d2-afb4-140ce0aee4a8)
@@ -212,7 +212,7 @@ khi tk có thể click button 'Đã có tài khoản? Đăng nhập' hoặc logi
 
 ![image](https://github.com/MinhBao2003/React-BH-Express/assets/146474537/655236f7-be86-412f-bef3-76157ba64911)
 
- # * nó check username password để trống tương tự như phần đk tk và đặt hàng *
+ ### * nó check username password để trống tương tự như phần đk tk và đặt hàng *
 
 check nhập sai tk mk 
 
@@ -226,11 +226,11 @@ nó sẽ ẩn thẻ login thay bằng bằng tên username tk vào chữ thoát 
 
 ![image](https://github.com/MinhBao2003/React-BH-Express/assets/146474537/b5bb9f34-fd14-491c-a2f0-29898a074a33)
 
- # * và có responsive cho màn mobei và cả table và màn lớn hơn *
+ ## * và có responsive cho màn mobei và cả table và màn lớn hơn *
 
- # responsive cho ss s20 ultra
+ ## responsive cho ss s20 ultra
   
-# 1.Trang chủ
+### 1.Trang chủ
 
 ![image](https://github.com/MinhBao2003/React-BH-Express/assets/146474537/e22009f9-3770-4e07-b0ab-a214d2a89a40)
 
@@ -247,7 +247,7 @@ nó sẽ ẩn thẻ login thay bằng bằng tên username tk vào chữ thoát 
 ![image](https://github.com/MinhBao2003/React-BH-Express/assets/146474537/e865dc65-25f8-4fd3-a8ad-de9440076a3b)
 
 
-# 2.chi tiết sp
+### 2.chi tiết sp
 
 ![image](https://github.com/MinhBao2003/React-BH-Express/assets/146474537/fd486031-fa43-4d63-9dd1-0a2db7357d6d)
 
@@ -261,19 +261,19 @@ nó sẽ ẩn thẻ login thay bằng bằng tên username tk vào chữ thoát 
 
 ![image](https://github.com/MinhBao2003/React-BH-Express/assets/146474537/e4e73c34-2651-445f-aa94-e776e0285bc6)
 
-# 3.giỏ hàng
+### 3.giỏ hàng
 
 ![image](https://github.com/MinhBao2003/React-BH-Express/assets/146474537/a03bec31-00b8-4877-8d41-194389c7a99c)
 
 ![image](https://github.com/MinhBao2003/React-BH-Express/assets/146474537/564c9746-97ab-4a0f-b29b-7dd85ad42b7a)
 
-# 4.đặt hàng
+### 4.đặt hàng
 
 ![image](https://github.com/MinhBao2003/React-BH-Express/assets/146474537/829b36b2-5189-4bc4-ac13-92a80d2fb220)
 
 ![image](https://github.com/MinhBao2003/React-BH-Express/assets/146474537/ea3e6c0a-1e4f-461d-8ab9-f8cb272b89b1)
 
-# 5.trang chủ đề
+### 5.trang chủ đề
 
 ![image](https://github.com/MinhBao2003/React-BH-Express/assets/146474537/735fb0b6-cfa6-4d66-aa68-9867bb0fe506)
 
@@ -281,19 +281,19 @@ nó sẽ ẩn thẻ login thay bằng bằng tên username tk vào chữ thoát 
 
 ![image](https://github.com/MinhBao2003/React-BH-Express/assets/146474537/f3e901d2-6c9d-4c8b-8006-5d2e4a76c125)
 
-# 6.vị trí
+### 6.vị trí
 
 ![image](https://github.com/MinhBao2003/React-BH-Express/assets/146474537/ab9f68c5-3711-4391-b3e0-87e72881f416)
 
 ![image](https://github.com/MinhBao2003/React-BH-Express/assets/146474537/5ad9db98-4202-4c42-9b18-7093ec3e44b5)
 
-# 7.login
+### 7.login
 
 ![image](https://github.com/MinhBao2003/React-BH-Express/assets/146474537/dd487264-8dc3-457f-aa33-830a10bdc42b)
 
 ![image](https://github.com/MinhBao2003/React-BH-Express/assets/146474537/edea3b6e-b307-44d4-8268-7800993ecc55)
 
-# 8.register
+### 8.register
 
 ![image](https://github.com/MinhBao2003/React-BH-Express/assets/146474537/9e0160cb-dd41-409a-862c-f3d78deb7b41)
 
