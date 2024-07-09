@@ -52,8 +52,6 @@ khi click thêm giỏ hàng
 
 nó sẽ thông báo , thông tin sản sẽ được lưu node (express)
 
-![image](https://github.com/MinhBao2003/React-BH-Express/assets/146474537/75afa26d-42b6-4ed1-814c-26ee01cbaba3)
-
 ![image](https://github.com/MinhBao2003/React-BH-Express/assets/146474537/1899fdbf-5a20-41c6-9c11-a7a96cd1cb24)
 
 và nút giỏ hàng sẽ ẩn và thông báo : Sản phẩm đã có trong Giỏ hàng - Số lượng: 1
@@ -95,3 +93,59 @@ nó sẽ giảm số lượng sản phẩm và tính giá sản phẩm theo số
 nó sẽ giảm trong node (express)
 
 ![image](https://github.com/MinhBao2003/React-BH-Express/assets/146474537/c4143099-b5f1-4fa7-bec1-57d1754220bb)
+
+khi click đặt hàng
+
+![image](https://github.com/MinhBao2003/React-BH-Express/assets/146474537/73c685b5-d54e-4f39-a694-b22e0f50fe32)
+
+IV.trang đặt hàng http://localhost:3001/Order
+
+![image](https://github.com/MinhBao2003/React-BH-Express/assets/146474537/16f84de6-c2cf-463c-84ad-748e758951ab)
+![image](https://github.com/MinhBao2003/React-BH-Express/assets/146474537/7eb56f1e-2e05-4e6f-9d11-4d2ca2d72370)
+![image](https://github.com/MinhBao2003/React-BH-Express/assets/146474537/80e4accb-69e8-48b0-85d0-16ecdcf76805)
+
+khi ấn thanh toán 
+
+![image](https://github.com/MinhBao2003/React-BH-Express/assets/146474537/73aa9678-774d-4c06-8e53-c66e6a8762f3)
+
+nó check texbos , input để trống hoặc nhấp sđt 10 số email theo định dạng @
+
+check họ tên
+
+![image](https://github.com/MinhBao2003/React-BH-Express/assets/146474537/a835410c-f1c2-4620-824b-9fa070549314)
+
+check sđt 
+
+![image](https://github.com/MinhBao2003/React-BH-Express/assets/146474537/16c43b37-b358-4b84-9551-3e259500dbea)
+
+check nhập 10 số 
+
+![image](https://github.com/MinhBao2003/React-BH-Express/assets/146474537/f90a02ba-c681-4941-9e82-1d36efe39623)
+
+check địa chỉ 
+
+![image](https://github.com/MinhBao2003/React-BH-Express/assets/146474537/e790f556-f5ed-445f-b3a7-74806a131f28)
+
+check email
+
+![image](https://github.com/MinhBao2003/React-BH-Express/assets/146474537/d52f1aec-31ae-40ec-890b-b22d868504ed)
+
+check email theo định dạng @
+
+![image](https://github.com/MinhBao2003/React-BH-Express/assets/146474537/a05a9e8b-685d-4498-9741-029defc9bd94)
+
+khi nó check thỏa hết điều kiện nó sẽ lưu vào node Express và reset lại form
+
+![image](https://github.com/MinhBao2003/React-BH-Express/assets/146474537/ffbf323e-a2cb-42e2-8610-63f28c6cb03a)
+
+khi đặt hàng thành công nó sẽ xóa dữ liệu ở node (express) : http://localhost:3000/cart và lưu vào node express : http://localhost:3000/order
+
+xóa dữ liệu ở ở node (express) : http://localhost:3000/cart
+
+![image](https://github.com/MinhBao2003/React-BH-Express/assets/146474537/2b0b8449-8e4a-4ed4-ab9f-927a14bf396b)
+
+lưu vào node express http://localhost:3000/order
+
+![image](https://github.com/MinhBao2003/React-BH-Express/assets/146474537/52861773-72a1-454c-b962-395584218f14)
+
+![image](https://github.com/MinhBao2003/React-BH-Express/assets/146474537/f5401e92-2f88-4abe-8438-ddeb2f43b74a)
