@@ -112,7 +112,7 @@ nó check texbos , input để trống hoặc nhấp sđt 10 số email theo đ�
 
 check họ tên
 
-![image](https://github.com/MinhBao2003/React-BH-Express/assets/146474537/060ffa71-2283-4a99-ab64-fa71bafc8585)
+![image](https://github.com/MinhBao2003/React-BH-Express/assets/146474537/3a262cba-1409-4893-abc0-6617acc89010)
 
 check sđt 
 
