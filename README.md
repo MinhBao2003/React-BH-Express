@@ -6,17 +6,17 @@
  + chức năng giỏ hàng , đặt hàng lứa vào node express
  + đăng ký , đăng nhập tk người dùng lưu trên node express
 
-# tải code từ git 
+## tải code từ git 
 
 `git clone https://github.com/MinhBao2003/React-BH-Express.git `
 
-# cài thêm node-modules  khi tải code từ git
+## cài thêm node-modules  khi tải code từ git
 
 `npm install`
 
 ## * sửa tên project lại ko được ghi hoa và khi chạy project thường để project trong ổ đĩa c/ sẽ không bị lổi *
 
-# muốn chạy dự án react cài node từ trang chủ của node :
+## muốn chạy dự án react cài node từ trang chủ của node :
 
 `https://nodejs.org/en/download/prebuilt-installer`
 
