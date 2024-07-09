@@ -213,6 +213,7 @@ nó sẽ ẩn thẻ login thay bằng bằng tên username tk vào chữ thoát 
 ![image](https://github.com/MinhBao2003/React-BH-Express/assets/146474537/b5bb9f34-fd14-491c-a2f0-29898a074a33)
 
 * và có responsive cho 1 số màn mobei và cả table và màn lớn hơn *
+
   responsive cho ss s20 ultra
   
 1.Trang chủ
@@ -259,14 +260,28 @@ nó sẽ ẩn thẻ login thay bằng bằng tên username tk vào chữ thoát 
 
 5.trang chủ đề
 
-![image](https://github.com/MinhBao2003/React-BH-Express/assets/146474537/09bc7be0-cabd-41ea-9929-c87ef0783cef)
+![image](https://github.com/MinhBao2003/React-BH-Express/assets/146474537/735fb0b6-cfa6-4d66-aa68-9867bb0fe506)
 
-![image](https://github.com/MinhBao2003/React-BH-Express/assets/146474537/eabe3045-eb63-4501-8c01-0daa29b47dc7)
+![image](https://github.com/MinhBao2003/React-BH-Express/assets/146474537/dba0b3b3-7844-4098-a8b6-15b58df573e6)
 
-![image](https://github.com/MinhBao2003/React-BH-Express/assets/146474537/c9923fb8-321f-4b7d-9c87-c9e776a38d70)
-
-![image](https://github.com/MinhBao2003/React-BH-Express/assets/146474537/d27d591f-0b80-4393-8a2d-6a22ee3dc86a)
+![image](https://github.com/MinhBao2003/React-BH-Express/assets/146474537/f3e901d2-6c9d-4c8b-8006-5d2e4a76c125)
 
 6.vị trí
 
+![image](https://github.com/MinhBao2003/React-BH-Express/assets/146474537/ab9f68c5-3711-4391-b3e0-87e72881f416)
+
+![image](https://github.com/MinhBao2003/React-BH-Express/assets/146474537/5ad9db98-4202-4c42-9b18-7093ec3e44b5)
+
+7.login
+
+![image](https://github.com/MinhBao2003/React-BH-Express/assets/146474537/dd487264-8dc3-457f-aa33-830a10bdc42b)
+
+![image](https://github.com/MinhBao2003/React-BH-Express/assets/146474537/edea3b6e-b307-44d4-8268-7800993ecc55)
+
+8.register
+
+![image](https://github.com/MinhBao2003/React-BH-Express/assets/146474537/9e0160cb-dd41-409a-862c-f3d78deb7b41)
+
+![image](https://github.com/MinhBao2003/React-BH-Express/assets/146474537/e0062712-bd84-4dc7-bb43-28d5c189a869)
+![image](https://github.com/MinhBao2003/React-BH-Express/assets/146474537/8df7b7b6-18b1-404d-831d-b41beecb742a)
 
