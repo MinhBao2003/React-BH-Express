@@ -1,6 +1,6 @@
-# link git data node express trong cv
+### link git data node express trong cv
 
-# chức năng :
+## chức năng :
  + giao diện trang bán hoa
  + chi tiết sản phẩm loát data từ express
  + chức năng giỏ hàng , đặt hàng lứa vào node express
