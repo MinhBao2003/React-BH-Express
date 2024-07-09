@@ -1,6 +1,8 @@
+link git data node express trong cv
+
 tải code từ git 
 
-` `
+`git clone https://github.com/MinhBao2003/React-BH-Express.git `
 
 cài thêm node-modules  khi tải code từ git
 
