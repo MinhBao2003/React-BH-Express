@@ -220,7 +220,7 @@ nó sẽ ẩn thẻ login thay bằng bằng tên username tk vào chữ thoát 
 
 ![image](https://github.com/MinhBao2003/React-BH-Express/assets/146474537/b5bb9f34-fd14-491c-a2f0-29898a074a33)
 
-* và có responsive cho 1 số màn mobei và cả table và màn lớn hơn *
+*và có responsive cho màn mobei và cả table và màn lớn hơn *
 
   responsive cho ss s20 ultra
   
@@ -295,3 +295,4 @@ nó sẽ ẩn thẻ login thay bằng bằng tên username tk vào chữ thoát 
 
 ![image](https://github.com/MinhBao2003/React-BH-Express/assets/146474537/8df7b7b6-18b1-404d-831d-b41beecb742a)
 
+thank you
