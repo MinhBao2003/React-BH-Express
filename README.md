@@ -1,5 +1,11 @@
 link git data node express trong cv
 
+chức năng :
+ + giao trang bán hoa
+ + chi tiết sản phẩm loát data từ express
+ + chức năng giỏ hàng , đặt hàng lứa vào node express
+ + đăng ký , đăng nhập tk người dùng lưu trên node express
+
 tải code từ git 
 
 `git clone https://github.com/MinhBao2003/React-BH-Express.git `
