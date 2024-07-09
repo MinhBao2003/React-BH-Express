@@ -1,7 +1,7 @@
 # link git data node express trong cv
 
 # chức năng :
- + giao trang bán hoa
+ + giao diện trang bán hoa
  + chi tiết sản phẩm loát data từ express
  + chức năng giỏ hàng , đặt hàng lứa vào node express
  + đăng ký , đăng nhập tk người dùng lưu trên node express
@@ -14,7 +14,7 @@
 
 `npm install`
 
-# * sửa tên project lại ko được ghi hoa và khi chạy project thường để project trong ổ đĩa c/ sẽ không bị lổi *
+## * sửa tên project lại ko được ghi hoa và khi chạy project thường để project trong ổ đĩa c/ sẽ không bị lổi *
 
 # muốn chạy dự án react cài node từ trang chủ của node :
 
