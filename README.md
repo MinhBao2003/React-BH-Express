@@ -1,6 +1,12 @@
+tải code từ git 
+
+` `
+
 cài thêm node-modules  khi tải code từ git
 
 `npm install`
+
+* sửa tên project lại ko được ghi hoa và khi chạy project thường để project trong ổ đĩa c/ sẽ không bị lổi *
 
 muốn chạy dự án react cài node từ trang chủ của node :
 
@@ -284,5 +290,6 @@ nó sẽ ẩn thẻ login thay bằng bằng tên username tk vào chữ thoát 
 ![image](https://github.com/MinhBao2003/React-BH-Express/assets/146474537/9e0160cb-dd41-409a-862c-f3d78deb7b41)
 
 ![image](https://github.com/MinhBao2003/React-BH-Express/assets/146474537/e0062712-bd84-4dc7-bb43-28d5c189a869)
+
 ![image](https://github.com/MinhBao2003/React-BH-Express/assets/146474537/8df7b7b6-18b1-404d-831d-b41beecb742a)
 
