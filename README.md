@@ -152,3 +152,121 @@ lưu vào node express http://localhost:3000/order
 
 ![image](https://github.com/MinhBao2003/React-BH-Express/assets/146474537/52861773-72a1-454c-b962-395584218f14)
 
+V.trang chủ đề : http://localhost:3001/Topic
+
+![image](https://github.com/MinhBao2003/React-BH-Express/assets/146474537/384b5515-e21d-4c5f-b2e7-3ed3f18e1112)
+![image](https://github.com/MinhBao2003/React-BH-Express/assets/146474537/fb9ced85-fc6c-4326-b70a-257099d827f7)
+
+VI.trâng vị trí của hàng : http://localhost:3001/projeck
+
+![image](https://github.com/MinhBao2003/React-BH-Express/assets/146474537/0f03066f-f640-4e46-a591-d951eae90b04)
+![image](https://github.com/MinhBao2003/React-BH-Express/assets/146474537/c0f63761-e0a6-409d-955c-8f87a9d4263b)
+
+VII.trang login : http://localhost:3001/login
+
+![image](https://github.com/MinhBao2003/React-BH-Express/assets/146474537/1e222ff4-20a4-4719-b023-4cd7992b4856)
+![image](https://github.com/MinhBao2003/React-BH-Express/assets/146474537/0ed5cc3b-84e9-45cd-abc1-35db04c1eb86)
+
+khi chưa có tk có click button
+
+![image](https://github.com/MinhBao2003/React-BH-Express/assets/146474537/416c1f0f-c85c-4e99-8c1f-2d5baa09696c)
+
+VIII.trang resgister : http://localhost:3001/register
+
+![image](https://github.com/MinhBao2003/React-BH-Express/assets/146474537/a2076dfb-eb77-4794-a09f-41d424df5bb3)
+![image](https://github.com/MinhBao2003/React-BH-Express/assets/146474537/b5dbf579-1bbf-42d2-afb4-140ce0aee4a8)
+
+check textbox, input họ tên sđt theo 1 số email theo định dạng @ * check tương tự phần http://localhost:3001/Order * 
+
+check nhập mật khẩu cho và nhập lại mk
+
+![image](https://github.com/MinhBao2003/React-BH-Express/assets/146474537/43846804-8502-422b-898e-b6498a3fa7fe)
+
+khi thỏa hết đk thì form sẽ reset và lưu dữ liệu node (express)
+
+![image](https://github.com/MinhBao2003/React-BH-Express/assets/146474537/0440f929-e8cc-4508-b74a-0d72c5bc7c50)
+
+khi thỏa hết đk
+
+![image](https://github.com/MinhBao2003/React-BH-Express/assets/146474537/7ffdce01-f524-4d1f-a40a-883d387c9bcf)
+
+lưu dữ liệu vào node (express)
+
+![image](https://github.com/MinhBao2003/React-BH-Express/assets/146474537/a17c54ba-e14e-44d6-90d7-7db67083ca6a)
+
+khi tk có thể click button 'Đã có tài khoản? Đăng nhập' hoặc login trên menu
+
+![image](https://github.com/MinhBao2003/React-BH-Express/assets/146474537/655236f7-be86-412f-bef3-76157ba64911)
+
+ * nó check username password để trống tương tự như phần đk tk và đặt hàng *
+
+check nhập sai tk mk 
+
+![image](https://github.com/MinhBao2003/React-BH-Express/assets/146474537/c003715e-ab20-449f-aa05-6cf0c115160c)
+
+khi nhập đúng username password
+
+![image](https://github.com/MinhBao2003/React-BH-Express/assets/146474537/11bdce1e-d411-4c4f-a919-843ebd730416)
+
+nó sẽ ẩn thẻ login thay bằng bằng tên username tk vào chữ thoát là đăng xuất tk 
+
+![image](https://github.com/MinhBao2003/React-BH-Express/assets/146474537/b5bb9f34-fd14-491c-a2f0-29898a074a33)
+
+* và có responsive cho 1 số màn mobei và cả table và màn lớn hơn *
+  responsive cho ss s20 ultra
+  
+1.Trang chủ
+
+![image](https://github.com/MinhBao2003/React-BH-Express/assets/146474537/2822b6b6-bb3c-4d6a-9991-aa58e0d1a71d)
+
+![image](https://github.com/MinhBao2003/React-BH-Express/assets/146474537/f01f021e-824f-42b7-b201-932112278882)
+
+![image](https://github.com/MinhBao2003/React-BH-Express/assets/146474537/f28cbfc8-8b62-470e-84cc-298dd78fa89f)
+
+![image](https://github.com/MinhBao2003/React-BH-Express/assets/146474537/222d9d2c-0835-40db-acfc-d3540e5ccfa4)
+
+![image](https://github.com/MinhBao2003/React-BH-Express/assets/146474537/dcda5640-c6d4-4d5c-898e-4787419e02c9)
+
+![image](https://github.com/MinhBao2003/React-BH-Express/assets/146474537/0482475d-53d0-4a31-9f92-e3ebb3b773f8)
+
+![image](https://github.com/MinhBao2003/React-BH-Express/assets/146474537/804c4046-0f7f-45c8-a8ef-5f2e3c1ee763)
+
+2.chi tiết sp
+
+![image](https://github.com/MinhBao2003/React-BH-Express/assets/146474537/fd486031-fa43-4d63-9dd1-0a2db7357d6d)
+
+![image](https://github.com/MinhBao2003/React-BH-Express/assets/146474537/4b4cf59c-3600-4ca6-8aa3-c7a68103f61c)
+
+![image](https://github.com/MinhBao2003/React-BH-Express/assets/146474537/7e046f67-7309-4b37-a7e9-bd19e3da8ef6)
+
+![image](https://github.com/MinhBao2003/React-BH-Express/assets/146474537/4853677d-2750-4a76-9827-924cdf2e84e3)
+
+![image](https://github.com/MinhBao2003/React-BH-Express/assets/146474537/74dfd738-3410-49ea-b650-6978eb4680b0)
+
+![image](https://github.com/MinhBao2003/React-BH-Express/assets/146474537/e4e73c34-2651-445f-aa94-e776e0285bc6)
+
+3.giỏ hàng
+
+![image](https://github.com/MinhBao2003/React-BH-Express/assets/146474537/a03bec31-00b8-4877-8d41-194389c7a99c)
+
+![image](https://github.com/MinhBao2003/React-BH-Express/assets/146474537/564c9746-97ab-4a0f-b29b-7dd85ad42b7a)
+
+4.đặt hàng
+
+![image](https://github.com/MinhBao2003/React-BH-Express/assets/146474537/829b36b2-5189-4bc4-ac13-92a80d2fb220)
+
+![image](https://github.com/MinhBao2003/React-BH-Express/assets/146474537/ea3e6c0a-1e4f-461d-8ab9-f8cb272b89b1)
+
+5.trang chủ đề
+
+![image](https://github.com/MinhBao2003/React-BH-Express/assets/146474537/09bc7be0-cabd-41ea-9929-c87ef0783cef)
+
+![image](https://github.com/MinhBao2003/React-BH-Express/assets/146474537/eabe3045-eb63-4501-8c01-0daa29b47dc7)
+
+![image](https://github.com/MinhBao2003/React-BH-Express/assets/146474537/c9923fb8-321f-4b7d-9c87-c9e776a38d70)
+
+![image](https://github.com/MinhBao2003/React-BH-Express/assets/146474537/d27d591f-0b80-4393-8a2d-6a22ee3dc86a)
+
+6.vị trí
+
+
