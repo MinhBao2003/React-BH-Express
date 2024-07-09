@@ -112,7 +112,7 @@ nó check texbos , input để trống hoặc nhấp sđt 10 số email theo đ�
 
 check họ tên
 
-![image](https://github.com/MinhBao2003/React-BH-Express/assets/146474537/a835410c-f1c2-4620-824b-9fa070549314)
+![image](https://github.com/MinhBao2003/React-BH-Express/assets/146474537/060ffa71-2283-4a99-ab64-fa71bafc8585)
 
 check sđt 
 
@@ -140,12 +140,15 @@ khi nó check thỏa hết điều kiện nó sẽ lưu vào node Express và re
 
 khi đặt hàng thành công nó sẽ xóa dữ liệu ở node (express) : http://localhost:3000/cart và lưu vào node express : http://localhost:3000/order
 
-xóa dữ liệu ở ở node (express) : http://localhost:3000/cart
+khi đặt hàng thành công
 
 ![image](https://github.com/MinhBao2003/React-BH-Express/assets/146474537/2b0b8449-8e4a-4ed4-ab9f-927a14bf396b)
+
+xóa dữ liệu ở ở node (express) : http://localhost:3000/cart
+
+![image](https://github.com/MinhBao2003/React-BH-Express/assets/146474537/f5401e92-2f88-4abe-8438-ddeb2f43b74a)
 
 lưu vào node express http://localhost:3000/order
 
 ![image](https://github.com/MinhBao2003/React-BH-Express/assets/146474537/52861773-72a1-454c-b962-395584218f14)
 
-![image](https://github.com/MinhBao2003/React-BH-Express/assets/146474537/f5401e92-2f88-4abe-8438-ddeb2f43b74a)
