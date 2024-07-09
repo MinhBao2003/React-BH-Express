@@ -14,7 +14,7 @@
 
 `npm install`
 
-### * Sửa tên project lại ko được ghi hoa và khi chạy project thường để project trong ổ đĩa c/ sẽ không bị lổi *
+### * Sửa tên project lại ko được ghi hoa và khi chạy project thường để project trong ổ đĩa c/ sẽ không bị lổi tùy máy*
 
 ### Muốn chạy dự án react cài node từ trang chủ của node :
 
