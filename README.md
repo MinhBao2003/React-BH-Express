@@ -218,19 +218,20 @@ nó sẽ ẩn thẻ login thay bằng bằng tên username tk vào chữ thoát 
   
 1.Trang chủ
 
-![image](https://github.com/MinhBao2003/React-BH-Express/assets/146474537/2822b6b6-bb3c-4d6a-9991-aa58e0d1a71d)
+![image](https://github.com/MinhBao2003/React-BH-Express/assets/146474537/e22009f9-3770-4e07-b0ab-a214d2a89a40)
 
-![image](https://github.com/MinhBao2003/React-BH-Express/assets/146474537/f01f021e-824f-42b7-b201-932112278882)
+![image](https://github.com/MinhBao2003/React-BH-Express/assets/146474537/52158e13-7bb5-405b-b34f-409505be9aae)
 
-![image](https://github.com/MinhBao2003/React-BH-Express/assets/146474537/f28cbfc8-8b62-470e-84cc-298dd78fa89f)
+![image](https://github.com/MinhBao2003/React-BH-Express/assets/146474537/42c0a9af-2689-4f4b-a38a-ed5880c712d6)
 
-![image](https://github.com/MinhBao2003/React-BH-Express/assets/146474537/222d9d2c-0835-40db-acfc-d3540e5ccfa4)
+![image](https://github.com/MinhBao2003/React-BH-Express/assets/146474537/e55894c7-3db9-461b-9afa-5fc4b2a76e89)
 
-![image](https://github.com/MinhBao2003/React-BH-Express/assets/146474537/dcda5640-c6d4-4d5c-898e-4787419e02c9)
+![image](https://github.com/MinhBao2003/React-BH-Express/assets/146474537/f5ca1b61-4b0a-487e-99ad-f8b90b7f19bf)
 
-![image](https://github.com/MinhBao2003/React-BH-Express/assets/146474537/0482475d-53d0-4a31-9f92-e3ebb3b773f8)
+![image](https://github.com/MinhBao2003/React-BH-Express/assets/146474537/3da12feb-cf00-4c5b-a961-5af1b0d6d67d)
 
-![image](https://github.com/MinhBao2003/React-BH-Express/assets/146474537/804c4046-0f7f-45c8-a8ef-5f2e3c1ee763)
+![image](https://github.com/MinhBao2003/React-BH-Express/assets/146474537/e865dc65-25f8-4fd3-a8ad-de9440076a3b)
+
 
 2.chi tiết sp
 
