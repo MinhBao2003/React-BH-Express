@@ -8,7 +8,7 @@ cài thêm node-modules  khi tải code từ git
 
 `npm install`
 
-* sửa tên project lại ko được ghi hoa và khi chạy project thường để project trong ổ đĩa c/ sẽ không bị lổi *
+ * sửa tên project lại ko được ghi hoa và khi chạy project thường để project trong ổ đĩa c/ sẽ không bị lổi *
 
 muốn chạy dự án react cài node từ trang chủ của node :
 
@@ -220,7 +220,7 @@ nó sẽ ẩn thẻ login thay bằng bằng tên username tk vào chữ thoát 
 
 ![image](https://github.com/MinhBao2003/React-BH-Express/assets/146474537/b5bb9f34-fd14-491c-a2f0-29898a074a33)
 
-*và có responsive cho màn mobei và cả table và màn lớn hơn *
+ * và có responsive cho màn mobei và cả table và màn lớn hơn *
 
   responsive cho ss s20 ultra
   
